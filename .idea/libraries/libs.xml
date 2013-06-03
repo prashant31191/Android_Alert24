@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/date4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpmime-4.1-beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/guava-13.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gcm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

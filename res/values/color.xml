@@ -1,0 +1,25 @@
+<resources>
+   <color name="primary_4">#06266F</color>
+    <color name="primary_2">#1240AB</color>
+    <color name="primary_3">#2A4480</color>
+    <color name="primary_1">#4671D5</color>
+    <color name="primary_5">#6C8CD5</color> 
+    
+    <color name="light_grey">#f4f4f4</color>
+    <color name="dark_grey">#989898</color>
+    <color name="text_color_light">#ffffff</color>
+    <color name="text_color_dark">#bfbfbf</color>
+    
+    <color name="not_registered">#335bea</color>
+    <color name="registered">#29d14e</color>
+    <color name="banned">#d80808</color>
+    
+    <color name="not_downloaded">#335bea</color>
+    <color name="downloaded">#29d14e</color>
+    
+    <color name="blue">#335bea</color>
+    <color name="green">#29d14e</color>
+    
+    <color name="pressed_text">@android:color/white</color>
+    <color name="not_pressed_text">@color/dark_grey</color>
+</resources>

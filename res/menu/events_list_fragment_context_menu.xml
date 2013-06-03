@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/show_event"
+        android:title="@string/show">
+    </item>
+    
+    <item
+        android:id="@+id/edit_event"
+        android:title="@string/edit">
+    </item>
+    
+    <item
+        android:id="@+id/send_event"
+        android:title="@string/send">
+    </item>
+    
+    <item
+        android:id="@+id/delete_event"
+        android:title="@string/delete">
+    </item>
+
+</menu>

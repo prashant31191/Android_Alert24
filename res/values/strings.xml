@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alert24</string>
+    
+    <!--  General -->
+   	<string name="error">Błąd</string> 
+   	<string name="info">Info</string> 
+   	<string name="success">Sukces</string> 
+   	<string name="prefix_for_longitude_value">Długość geograficzna</string> 
+   	<string name="prefix_for_latitude_value">Szerokość geograficzna</string> 
+    <string name="accept">Zatwierdź</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="show">Podgląd</string>
+    <string name="edit">Edytuj</string>
+    <string name="send">Prześlij</string>
+    <string name="show_more">Pokaż więcej</string>
+    <string name="delete">Usuń</string>
+    <string name="ok">OK</string>
+    <string name="name_label">Nazwa</string>
+    <string name="address_label">Adres</string>
+    <string name="description_label">Opis</string>
+    <string name="category_label">Kategoria</string>
+    <string name="gallery_label">Zdjęcia</string>
+    <string name="photo_label">Zdjęcie</string>
+    <string name="color_label">Kolor</string>
+    
+    <!-- Events map -->
+    <string name="events_map_screen_title">Mapa zdarzeń</string>
+    
+    <!-- New event -->
+    <string name="new_event_screen_title">Nowe zgłoszenie</string>
+    <string name="event_categories_dialog_title">Wybierz kategorię</string>
+    <string name="add_photo">Dodaj zdjęcie</string>
+    <string name="select_photo">Wybierz zdjęcie</string>
+    <string name="delete_photo">Usuń zdjęcie</string>
+    
+    <!-- Event preview -->
+    <string name="event_screen_title">Zdarzenie</string>
+    <string name="event_info_page_title">Informacje</string>
+    <string name="event_gallery_page_title">Galeria</string>
+    
+    <!-- Events history -->
+    <string name="sent_events_screen_title">Historia</string>
+    <string name="remove_sent_events_action">Wyczyść historię</string>
+    
+    <!-- Not sent events -->
+    <string name="not_sents_events_screen_title">Niewysłane</string>
+    <string name="remove_not_sent_events_action">Usuń zgłoszenia</string>
+    <string name="show_event">Pokaż zgłoszenie</string>
+    <string name="edit_event_screen_title">Edytuj zgłoszenie</string>
+    
+    <!-- Options -->
+    <string name="options_screen_title">Opcje</string>
+    <string name="refresh_section">Opcje odświeżania</string>
+    <string name="refresh_radius">Promień</string>
+    <string name="refresh_interval">Interwał</string>
+    <string-array name="refresh_radius_options">
+   		<item>1km</item>     
+   		<item>2km</item>     
+   		<item>3km</item>     
+   		<item>4km</item>     
+   		<item>5km</item>     
+   		<item>10km</item>     
+    </string-array>
+    <string-array name="refresh_interval_options">
+   		<item>1min</item>     
+   		<item>2min</item>     
+   		<item>3min</item>     
+   		<item>4min</item>     
+   		<item>5min</item>     
+   		<item>10min</item>     
+   		<item>20min</item>     
+    </string-array>
+    <string name="map_section">Ustawienia mapy</string>
+    <string name="map_type_section_title">Typ</string>
+    <string name="map_type_normal">Normalna</string>
+    <string name="map_type_terrain">Terenowa</string>
+    <string name="map_type_hybrid">Hybrydowa</string>
+    <string name="map_type_satellite">Satelitarna</string>
+    <string-array name="map_type_options">
+   		<item>@string/map_type_normal</item>     
+   		<item>@string/map_type_terrain</item>     
+   		<item>@string/map_type_hybrid</item>     
+   		<item>@string/map_type_satellite</item>     
+    </string-array>
+    <string name="server_section">Serwer</string>
+    <string name="register_status">Status</string>
+    <string name="registered">Zarejestrowany</string>
+    <string name="not_registered">Niezarejestrowany</string>
+    <string name="banned">Zablokowany</string>
+    <string name="event_categories_status">Kategorie zdarzeń</string>
+    <string name="downloaded">Pobrano</string>
+    <string name="not_downloaded">Niepobrano</string>
+    <string name="download">Pobierz</string>
+    <string name="register">Zarejestruj</string>
+    <string name="graphic_section">Kolorystyka</string>
+    <string name="current_location_color">Twoja lokalizacja</string>
+    <string name="favorite_locations_color">Ulubione miejsca</string>
+    
+   	<!-- Operation in progress messages -->
+    <string name="operation_in_progress">Wykonuję operację. Proszę czekać</string>
+    <string name="updating_event_on_device">Aktualizacja zgłoszenia w bazie</string>
+    <string name="sending_event_to_server">Przesyłanie zgłoszenia na serwer</string>
+    <string name="adding_event_to_database">Zapisywanie zgłoszenia w bazie danych</string>
+    <string name="downloading_event_categories">Pobieranie kategorii zgłoszeń</string>
+    <string name="registering_device">Rejestracja urządzenia</string>
+    <string name="removing_event">Usuwanie zgłoszenia</string>
+    <string name="removing_selected_events">Usuwanie wybranych zgłoszeń</string>
+    <string name="downloading_events">Pobieranie zdarzeń</string>
+    
+   	<!-- Operations result messages -->
+    <string name="check_internet_connection">Sprawdź połączenie z internetem</string>
+    <string name="address_not_found">Nie udało się ustalić adresu</string>
+    <string name="operation_failed">Operacja nie powiodła się</string>
+    <string name="event_not_snet">Zgłoszenie nie zostało wysłane</string>
+    <string name="event_not_saved">Zgłoszenie nie zostało zapisane</string>
+    <string name="device_not_registered">Urządzenie nie zostało zarejestrowane</string>
+    <string name="event_categories_not_downloaded">Kategorie zgłoszeń nie zostały pobrane</string>
+    <string name="events_not_downloaded">Zdarzenia nie zostały pobrane</string>
+    <string name="retriving_address">Pobieranie adresu</string>
+    <string name="incorrect_name">Nieprawidłowa nazwa</string>
+    <string name="not_connected">Nie jesteś połączony z internetem</string>
+    <string name="event_categories_already_downloaded">Kategorie zgłoszeń są już pobrane</string>
+    <string name="already_registered">Jesteś już zarejestrowany</string>
+    <string name="please_check_event_category">Proszę wybrać kategorię zgłoszenia</string>
+    <string name="event_not_chosen">Nie wybrano zdarzenia</string>
+    
+    
+   	<!--  Points of interest -->
+    <string name="point_of_interest_screen_title">Ulubione miejsca</string>
+    <string name="point_of_interest_screen_short_title">Miejsca</string>
+    <string name="add_point_of_interest_action">Dodaj miejsce</string>
+    <string name="remove_points_of_interest">Usuń miejsca</string>
+    
+   	<!--  Notifications -->
+    <string name="notifications_screen_title">Powiadomienia</string>
+    <string name="show_all_notifications">Pokaż wszystkie</string>
+    <string name="show_read_notifications">Pokaż przeczytane</string>
+    <string name="show_not_read_notifications">Pokaż nieprzeczytane</string>
+    <string name="remove_notifications">Usuń powiadomienia</string>
+    
+    <string name="read">Czytaj</string>
+    <string name="set_as_read">Oznacz jako przeczytaną</string>
+    <string name="set_as_not_read">Oznacz jako nieprzeczytaną</string>
+    
+    <string name="notification_preview_screen_title">Powiadomienie</string>
+    <string name="notification_date_label">Powiadomienie z dnia</string>
+    <string name="notification_content_label">Treść</string>
+    <string name="is_read">Przeczytano</string>
+    <string name="is_not_read">Nieprzeczytano</string>
+    
+   	<!--  Empty list texts -->
+    <string name="zero_sent_events">Historia zgłoszeń jest pusta</string>
+    <string name="zero_not_sent_events">Lista zapisanych zgłoszeń jest pusta</string>
+    <string name="zero_messages">Nie masz żadnych powiadomień</string>
+    <string name="zero_points_of_interest">Brak ulubionych miejsc</string>
+</resources>
+

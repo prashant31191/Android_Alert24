@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <item
+        android:id="@+id/map_of_events"
+        android:icon="@drawable/map"
+        android:title="@string/events_map_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/sent_events"
+        android:icon="@drawable/sent_events"
+        android:title="@string/sent_events_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/not_sent_events"
+        android:icon="@drawable/not_sent_events"
+        android:title="@string/not_sents_events_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/add_new_event"
+        android:icon="@drawable/add_event"
+        android:title="@string/new_event_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/points_of_interest"
+        android:icon="@drawable/points_of_interest"
+        android:title="@string/point_of_interest_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/options"
+        android:icon="@drawable/options"
+        android:title="@string/options_screen_title">
+    </item>
+    
+    <item
+        android:id="@+id/system_notifications"
+        android:icon="@drawable/messages"
+        android:title="@string/notifications_screen_title">
+    </item>
+
+</menu>

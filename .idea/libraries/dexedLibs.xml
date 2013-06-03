@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gcm-fa170830392e79976ee4b9f92be10323.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/universal-image-loader-1.6.3-3f4f9a23df8698322ef3500eedebc79d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/guava-13.0.1-b31d71c6ab6b57bd9ccd7b249ae1e0ad.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-play-services-fa51467c3c4dbdd073f59e93517d6212.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-05fbfb35ca44de3739592971149cd19e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-play-services_lib-bf81471311dd7649080d1798463c5f69.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/actionbarsherlocklibrary-2af3eaeab337972f96f14f6d43f2061b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/viewpagerindicator-f07274a9d80169b0ea0fe7f6545af8f1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.1-beta1-798ba04d0f9bf601887fac1da3bd0e19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ambilwarna-d2e4a516d3ddaee6f9f50af2bb4cd592.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/date4j-1bd0e0b7753d09bab455e7f197ef3fc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/com_ribbonmenu-abc2e5a2ced61f1deb34d26abb593a72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-4d91b3178c9a74879d218d7ae45df340.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

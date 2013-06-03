@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/dark_section_label"
+        android:text="@string/refresh_section" />
+
+    <LinearLayout style="@style/options_subsection" >
+
+        <TextView
+            style="@style/subsection_label"
+            android:text="@string/refresh_radius" />
+
+        <Spinner
+            android:id="@+id/refresh_radius_options"
+            style="@style/options_spinner"
+            android:entries="@array/refresh_radius_options" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/options_subsection" >
+
+        <TextView
+            style="@style/subsection_label"
+            android:text="@string/refresh_interval" />
+
+        <Spinner
+            android:id="@+id/refresh_interval_options"
+            style="@style/options_spinner"
+            android:entries="@array/refresh_interval_options" />
+    </LinearLayout>
+
+</LinearLayout>

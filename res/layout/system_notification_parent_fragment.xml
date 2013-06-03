@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/system_notifications_titles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.1" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/system_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

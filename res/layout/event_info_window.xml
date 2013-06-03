@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:minWidth="200dp"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/info_window_section_label"
+        android:text="@string/name_label" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/primary_2"
+        android:textSize="13sp" />
+
+    <TextView
+        style="@style/info_window_section_label"
+        android:text="@string/category_label" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textColor="@color/banned"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/category_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/info_window_section_label"
+        android:text="@string/address_label" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/text_color_dark"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/show_event"
+        style="@style/info_window_button"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/show_more" />
+
+</LinearLayout>

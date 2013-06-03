@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <fragment
+        android:id="@+id/system_notification_parent_fragment"
+        android:name="com.kremski.alert24.views.SystemNotificationParentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.darvds.ribbonmenu.RibbonMenuView
+        android:id="@+id/ribbon_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

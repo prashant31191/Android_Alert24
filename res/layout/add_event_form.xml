@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/dark_section_label"
+            android:text="@string/name_label" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/input_field" />
+
+        <TextView
+            style="@style/dark_section_label"
+            android:text="@string/address_label" />
+
+        <LinearLayout
+            android:id="@+id/address_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ProgressBar
+                android:id="@+id/address_loading_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="20dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/input_field"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <include layout="@layout/event_category_section" />
+
+        <TextView
+            style="@style/dark_section_label"
+            android:text="@string/description_label" />
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/input_field"
+            android:lines="2" />
+
+        <TextView
+            style="@style/dark_section_label"
+            android:text="@string/photo_label" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/add_photo"
+                    style="@style/screen_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_photo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/select_photo"
+                    style="@style/screen_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/select_photo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/delete_photo"
+                    style="@style/screen_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/delete_photo"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.5"
+                android:scaleType="fitXY"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/accept"
+            style="@style/screen_button"
+            android:text="@string/accept" />
+
+        <TextView
+            android:id="@+id/save"
+            style="@style/screen_button"
+            android:layout_marginTop="1dp"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</ScrollView>

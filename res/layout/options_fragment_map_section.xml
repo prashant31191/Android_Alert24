@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/dark_section_label"
+        android:text="@string/map_section" />
+
+    <LinearLayout style="@style/options_subsection" >
+
+        <TextView
+            style="@style/subsection_label"
+            android:text="@string/map_type_section_title" />
+
+        <Spinner
+            android:id="@+id/map_type_options"
+            style="@style/options_spinner"
+            android:entries="@array/map_type_options" />
+    </LinearLayout>
+
+</LinearLayout>

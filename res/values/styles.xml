@@ -1,0 +1,127 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="section_label">
+        <item name="android:gravity">left</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="dark_section_label" parent="section_label">
+        <item name="android:background">@drawable/dark_border</item>
+    </style>
+
+    <style name="light_section_label" parent="section_label">
+        <item name="android:background">@drawable/light_border</item>
+    </style>
+
+    <style name="info_window_section_label" parent="light_section_label">
+        <item name="android:padding">5dp</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="subsection_label">
+        <item name="android:gravity">left</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="input_field">
+        <item name="android:gravity">left</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="screen_button">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/font_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="info_window_button" parent="screen_button">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="options_subsection">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="options_spinner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="dialog_animation_slide">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="actionbar_option">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="screen_button" parent="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="actionbar_separator">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:background">@drawable/actionbar_separator</item>
+    </style>
+
+    <style name="actionbar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/primary_1_background</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

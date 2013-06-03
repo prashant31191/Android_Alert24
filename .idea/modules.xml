@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../ActionBarSherlock/library/ActionBarSherlock.iml" filepath="$PROJECT_DIR$/../../../../ActionBarSherlock/library/ActionBarSherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../trunk/AmbilWarna/AmbilWarna.iml" filepath="$PROJECT_DIR$/../../../../trunk/AmbilWarna/AmbilWarna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../RibbonMenu/library/RibbonMenu.iml" filepath="$PROJECT_DIR$/../../../../RibbonMenu/library/RibbonMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../VIewPagerIndicator/VIewPagerIndicator.iml" filepath="$PROJECT_DIR$/../../../../VIewPagerIndicator/VIewPagerIndicator.iml" />
+      <module fileurl="file://$USER_HOME$/dev-tools/android-sdk-linux/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="$USER_HOME$/dev-tools/android-sdk-linux/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+
